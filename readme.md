@@ -21,7 +21,9 @@ git clone https://github.com/DimitriMikadze/express-react-redux-starter.git
 npm install dependencies
 
 ````
-cd express-react-redux-starter & npm install
+cd express-react-redux-starter 
+
+npm install
 ````
 
 ### Start development server with hot reloading
