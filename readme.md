@@ -62,10 +62,17 @@ npm run build
 
 Start production server
 
-Note: We are using pm2 for production server, you should install it on server via 'npm install pm2 -g'.
-if you don't want to use pm2, just change pm2 with node in package.json file in scripts section.
-
 ````
 npm run start
 ````
 
+Note: We are using pm2 for production server, you should install it on server via 'npm install pm2 -g'.
+if you don't want to use pm2, just change pm2 with node in package.json file in scripts section.
+
+### Contributing
+
+contributions are welcome!
+
+### License
+
+MIT
