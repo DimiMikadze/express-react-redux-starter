@@ -24,30 +24,48 @@ npm install dependencies
 cd express-react-redux-starter & npm install
 ````
 
-Start Server
+### Start development server with hot reloading
 
 ````
-node server.js
+npm run dev
 ````
 
-Webpack for client side script watching and bundling
+### Testing
+
+Run test once
 
 ````
-webpack -w
+npm run test
 ````
 
-Sass
+Test watch
 
 ````
-gulp sass:watch
+npm run test:watch
 ````
 
-Compress scripts
+### Linting
+
+For linting we are using Eslint with Airbnb configuration
 
 ````
-gulp compress
+npm run lint
 ````
 
-## License
+### production
 
-See license.txt
+Build for production
+
+````
+npm run build
+````
+
+Start production server
+
+Note: We are using pm2 for production server, you should install it on server via 'npm install pm2 -g'.
+if you don't want to use pm2, just change pm2 with node in package.json file in scripts section.
+
+````
+npm run start
+````
+

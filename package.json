@@ -2,6 +2,14 @@
   "name": "express-react-redux-starter",
   "version": "1.0.0",
   "description": "Starter for Express, React, Redux, SCSS applications",
+  "scripts": {
+    "dev": "webpack-dev-server --config ./webpack/webpack-dev.config.js --watch --colors",
+    "build": "rm -rf dist && webpack --config ./webpack/webpack-prod.config.js --colors",
+    "start": "PORT=8080 pm2 start ./server.js",
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
+    "test:watch": "npm run test -- --watch",
+    "lint": "eslint src test webpack"
+  },
   "keywords": [
     "ExpressJS",
     "ReactJS",
@@ -16,14 +24,9 @@
     "mocha",
     "chai"
   ],
-  "repository": "",
-  "scripts": {
-    "dev": "webpack-dev-server --config ./webpack/webpack-dev.config.js --watch --colors",
-    "build": "rm -rf dist && webpack --config ./webpack/webpack-prod.config.js --colors",
-    "start": "PORT=8080 pm2 start ./server.js",
-    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
-    "test:watch": "npm run test -- --watch",
-    "lint": "eslint src test webpack"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DimitriMikadze/express-react-redux-starter"
   },
   "author": "Dimitri Mikadze",
   "license": "MIT",
