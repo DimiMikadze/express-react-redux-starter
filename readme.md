@@ -46,13 +46,13 @@ npm run test:watch
 
 ### Linting
 
-For linting we are using Eslint with Airbnb configuration
+For linting we are using Eslint with Airbnb Eslint configuration
 
 ````
 npm run lint
 ````
 
-### production
+### Production
 
 Build for production
 
