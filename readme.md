@@ -46,7 +46,7 @@ npm run test:watch
 
 ### Linting
 
-For linting we are using Eslint with Airbnb Eslint configuration
+For linting i'm using Eslint with Airbnb Eslint configuration
 
 ````
 npm run lint
@@ -66,7 +66,7 @@ Start production server
 npm run start
 ````
 
-Note: We are using pm2 for production server, you should install it on server via 'npm install pm2 -g'.
+Note: I'm using pm2 for production server, you should install it on server via 'npm install pm2 -g'.
 if you don't want to use pm2, just change pm2 with node in package.json file in scripts section.
 
 ### Contributing
