@@ -1,3 +1,5 @@
+https://travis-ci.org/DimitriMikadze/express-react-redux-starter.svg?branch=master
+
 # Starter for Express, React, Redux, SCSS applications
 
 ## Features
