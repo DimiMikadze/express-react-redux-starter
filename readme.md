@@ -1,6 +1,4 @@
 [![Build Status](https://travis-ci.org/DimitriMikadze/express-react-redux-starter.svg?branch=master)](https://travis-ci.org/DimitriMikadze/express-react-redux-starter)
-[![dependencies Status](https://david-dm.org/DimitriMikadze/express-react-redux-starter/status.svg)](https://david-dm.org/DimitriMikadze/express-react-redux-starter)
-[![devDependencies Status](https://david-dm.org/DimitriMikadze/express-react-redux-starter/dev-status.svg)](https://david-dm.org/DimitriMikadze/express-react-redux-starter?type=dev)
 
 # Starter for Express, React, Redux, SCSS applications
 
