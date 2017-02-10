@@ -40,8 +40,8 @@ var webpackConfig = {
 // ------------------------------------------
 webpackConfig.entry = !isProduction
   ? ['webpack-dev-server/client?http://localhost:' + port,
-  'webpack/hot/dev-server',
-  Path.join(__dirname, './src/app/index')]
+     'webpack/hot/dev-server',
+     Path.join(__dirname, './src/app/index')]
   : [Path.join(__dirname, './src/app/index')];
 
 // ------------------------------------------
