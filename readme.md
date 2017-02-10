@@ -1,4 +1,4 @@
-https://travis-ci.org/DimitriMikadze/express-react-redux-starter.svg?branch=master
+[![Build Status](https://travis-ci.org/DimitriMikadze/express-react-redux-starter.svg?branch=master)](https://travis-ci.org/DimitriMikadze/express-react-redux-starter)
 
 # Starter for Express, React, Redux, SCSS applications
 
