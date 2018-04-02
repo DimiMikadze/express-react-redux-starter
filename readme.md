@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/DimitriMikadze/express-react-redux-starter.svg?branch=master)](https://travis-ci.org/DimitriMikadze/express-react-redux-starter)
-[![dependencies Status](https://david-dm.org/DimitriMikadze/express-react-redux-starter/status.svg)](https://david-dm.org/DimitriMikadze/express-react-redux-starter)
+[![Build Status](https://travis-ci.org/DimiMikadze/express-react-redux-starter.svg?branch=master)](https://travis-ci.org/DimiMikadze/express-react-redux-starter)
+[![dependencies Status](https://david-dm.org/DimiMikadze/express-react-redux-starter/status.svg)](https://david-dm.org/DimiMikadze/express-react-redux-starter)
 
 # Starter for Express, React, Redux, SCSS applications
 
@@ -18,7 +18,7 @@
 Clone Repo
 
 ````
-git clone https://github.com/DimitriMikadze/express-react-redux-starter.git
+git clone https://github.com/DimiMikadze/express-react-redux-starter.git
 ````
 
 npm install dependencies
