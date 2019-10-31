@@ -1,4 +1,4 @@
-# DEPRECATED. This project is not maintained anymore.
+> DEPRECATED. This project is not maintained anymore.
 
 [![Build Status](https://travis-ci.org/DimiMikadze/express-react-redux-starter.svg?branch=master)](https://travis-ci.org/DimiMikadze/express-react-redux-starter)
 
